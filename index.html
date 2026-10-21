@@ -1,4 +1,3 @@
-</title> galen hemsida FX</title>
 <!DOCTYPE html>
 <html lang="sv">
 <head>
@@ -13,12 +12,27 @@
             background-color: #f4f4f9;
         }
         img {
-            max-width: 300px; /* Gör att bilden får en lagom storlek */
+            max-width: 300px;
             width: 100%;
             height: auto;
             border-radius: 12px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
             margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 24px;
+            background-color: #ff0000;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.2s;
+        }
+        .btn:hover {
+            background-color: #cc0000;
         }
     </style>
 </head>
@@ -27,8 +41,14 @@
     <h1>Välkommen till min hemsida!</h1>
     <p>Här är en bild på mig:</p>
 
-    <!-- Om din bild heter profil.png på datorn/GitHub ändrar du till src="profil.png" -->
-    <img src="linton.PNG" alt="Min profilbild">
+    <img src="profil.jpg" alt="Min profilbild">
+
+    <br>
+
+    <!-- Länk till Rick Roll -->
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn">
+        Klicka inte här! 🤫
+    </a>
 
 </body>
 </html>
